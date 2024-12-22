@@ -12,7 +12,7 @@ build:
 launch:
   environment:
     - name: OWNER
-      value: "samgabrail"
+      value: "cloudkolkata"
     - name: REPO
       value: "devzero-demos"
     - name: GITHUB_PAT
