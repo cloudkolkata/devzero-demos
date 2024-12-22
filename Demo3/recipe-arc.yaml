@@ -22,7 +22,7 @@ launch:
     - name: NAMESPACE
       value: "dz-arc-systems"
     - name: GITHUB_CONFIG_URL
-      value: "https://github.com/samgabrail/devzero-demos"
+      value: "https://github.com/cloudkolkata/devzero-demos"
     - name: GITHUB_PAT
       value: "{{secret:team.GITHUB_PAT}}"
   steps:
