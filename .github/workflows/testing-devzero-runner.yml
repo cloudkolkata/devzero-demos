@@ -2,7 +2,7 @@ name: DevZero Actions Runner Controller Demo
 on: [pull_request, push]
 jobs:
   Explore-GitHub-Actions-Arc:
-    runs-on: devzero-ubuntu-24.04-minimal
+    runs-on: devzero-minimal
     steps:
       - run: docker run hello-world
       - run: echo "🎉 This job uses runner scale set runners and just ran a docker container!"
